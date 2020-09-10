@@ -8,9 +8,13 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    @ObservedObject var timer = FTimer()
     var body: some View {
-        Text("Hello, World!")
+        Text("\(self.timer.value)")
+            .font(.largeTitle)
     }
 }
 

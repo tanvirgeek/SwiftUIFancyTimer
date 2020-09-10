@@ -13,6 +13,7 @@
 		EBC985BB2509D7F7004CAAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC985BA2509D7F7004CAAD1 /* Assets.xcassets */; };
 		EBC985BE2509D7F7004CAAD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC985BD2509D7F7004CAAD1 /* Preview Assets.xcassets */; };
 		EBC985C12509D7F7004CAAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC985BF2509D7F7004CAAD1 /* LaunchScreen.storyboard */; };
+		EBC985C92509D896004CAAD1 /* FTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC985C82509D896004CAAD1 /* FTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBC985BD2509D7F7004CAAD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBC985C02509D7F7004CAAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC985C22509D7F7004CAAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC985C82509D896004CAAD1 /* FTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EBC985BF2509D7F7004CAAD1 /* LaunchScreen.storyboard */,
 				EBC985C22509D7F7004CAAD1 /* Info.plist */,
 				EBC985BC2509D7F7004CAAD1 /* Preview Content */,
+				EBC985C82509D896004CAAD1 /* FTimer.swift */,
 			);
 			path = FancyTimer;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC985B52509D7F6004CAAD1 /* AppDelegate.swift in Sources */,
+				EBC985C92509D896004CAAD1 /* FTimer.swift in Sources */,
 				EBC985B72509D7F6004CAAD1 /* SceneDelegate.swift in Sources */,
 				EBC985B92509D7F6004CAAD1 /* ContentView.swift in Sources */,
 			);
